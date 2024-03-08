@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color: #333;
+    height: 100vh; /* 100% viewport height */
+    width: 200px;
+    position: fixed; /* Fixed position so it stays on the left side */
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-item a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.sidebar-item a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 220px; /* Adjust this to give space for the sidebar */
+    padding: 20px;
+}
+
+/* Style for content sections */
+.content div {
+    margin-bottom: 40px;
+}
